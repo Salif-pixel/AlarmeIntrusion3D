@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import ThreeDIntro from "./ThreeDIntro.tsx";
 import {TextGenerateEffectDemo} from "./TextGeneratedDemo.tsx";
-import {MovingBorderDemo} from "./MovingButtonBorder.tsx";
+
 
 
 

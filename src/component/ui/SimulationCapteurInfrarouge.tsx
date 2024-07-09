@@ -1,6 +1,6 @@
 import Spline from "@splinetool/react-spline";
 import {motion} from "framer-motion";
-import {TextGenerateEffectDemo} from "./TextGeneratedDemo.tsx";
+
 
 
 
