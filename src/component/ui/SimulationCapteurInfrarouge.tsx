@@ -1,6 +1,7 @@
 import Spline from "@splinetool/react-spline";
 import {motion} from "framer-motion";
-
+import {ThreeDCardDemo} from "./3d-cardDemo.tsx";
+import infra from "../../assets/infra.png";
 
 
 
@@ -30,6 +31,10 @@ export default function SimulationCapteurInfrarouge() {
                         on envoie un bip sonore pour alerter les gens dans la maison.</p>
 
 
+                </div>
+                <div className={`flex  w-screen mt-10 justify-center items-center `}>
+                <ThreeDCardDemo title={`Logique code du Capteur infrarouge`} description={` Alors de base la valeur du capteur est toujours a un ce qui est normal donc lorsque la valeur change c'est a dire part a 0 alors on met a 1 le buzzer pendant 1s`}
+                                image={infra}/>
                 </div>
             </div>
             <Spline scene="https://prod.spline.design/BF-tNDZaucW6BsI2/scene.splinecode"/>

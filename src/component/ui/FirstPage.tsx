@@ -2,9 +2,10 @@ import Intro from "./Intro.tsx";
 import {HeroScrollDemo} from "./HeroScrollDemo.tsx";
 import {InfiniteMovingCardsDemo} from "./InfiniteMovingCardsDemo.tsx";
 import SimulationCapteurInfrarouge from "./SimulationCapteurInfrarouge.tsx";
-import SecondPage from "./Secondpage.tsx";
-import ThirdPage from "./Thirdpage.tsx";
-import FourthPage from "./Fourthpage.tsx";
+import Simulation3Dmaison from "./Simulation3Dmaison.tsx";
+import CapteurPir from "./CapteurPir.tsx";
+import Prison from "./Prison.tsx";
+import ESP32 from "./ESP32.tsx";
 
 
 
@@ -18,8 +19,9 @@ export default function FirstPage() {
                 <HeroScrollDemo/>
                 <InfiniteMovingCardsDemo/>
                 <SimulationCapteurInfrarouge/>
-                <ThirdPage/>
-                <SecondPage /><FourthPage/>
+                <CapteurPir/><ESP32/>
+                <Simulation3Dmaison />
+                    <Prison/>
 
             </div>
 
