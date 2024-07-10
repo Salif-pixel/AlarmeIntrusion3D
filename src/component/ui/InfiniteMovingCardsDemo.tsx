@@ -19,6 +19,7 @@ const testimonials = [
     {
         quote:
             "La carte ESP32 a transformé notre projet de maison intelligente en une réalité. Grâce à ses capacités de connectivité et à sa puissance de traitement, on l'utilise pour envoyer des notifications lorsque des capteurs détectent des mouvements ",
+        title: "carte ESP32 ",
     },
     {
         quote:
