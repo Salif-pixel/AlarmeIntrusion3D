@@ -4,6 +4,7 @@ import {InfiniteMovingCardsDemo} from "./InfiniteMovingCardsDemo.tsx";
 import SimulationCapteurInfrarouge from "./SimulationCapteurInfrarouge.tsx";
 import SecondPage from "./Secondpage.tsx";
 import ThirdPage from "./Thirdpage.tsx";
+import FourthPage from "./Fourthpage.tsx";
 
 
 
@@ -18,7 +19,7 @@ export default function FirstPage() {
                 <InfiniteMovingCardsDemo/>
                 <SimulationCapteurInfrarouge/>
                 <ThirdPage/>
-                <SecondPage />
+                <SecondPage /><FourthPage/>
 
             </div>
 
