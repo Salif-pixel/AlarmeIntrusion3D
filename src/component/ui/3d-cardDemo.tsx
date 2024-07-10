@@ -42,17 +42,7 @@ export function ThreeDCardDemo({title,description,image}: CardProps) {
                         alt="thumbnail"
                     />
                 </CardItem>
-                <div className="flex justify-between items-center mt-20">
-                    <CardItem
-                        translateZ={20}
-                        href="https://twitter.com/mannupaaji"
-                        target="__blank"
-                        className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                    >
-                        Try now →
-                    </CardItem>
-
-                </div>
+               
             </CardBody>
         </CardContainer>
     );
