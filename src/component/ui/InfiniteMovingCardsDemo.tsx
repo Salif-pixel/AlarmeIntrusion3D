@@ -27,7 +27,7 @@ const testimonials = [
     },
     {
         quote:
-            "Le capteur de proximité infrarouge est un ajout fantastique à notre projet robotique. Il permet une détection précise des elements qui coupent son rayon infrarouge, ",
+            "Le capteur de proximité infrarouge est un ajout fantastique à notre projet  Il permet une détection précise des elements qui coupent son rayon infrarouge, ",
         title: "capteur de proximité infrarouge",
     },
 ];
