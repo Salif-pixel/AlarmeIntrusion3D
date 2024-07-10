@@ -42,7 +42,7 @@ export function ThreeDCardDemo({title,description,image}: CardProps) {
                         alt="thumbnail"
                     />
                 </CardItem>
-               
+
             </CardBody>
         </CardContainer>
     );
