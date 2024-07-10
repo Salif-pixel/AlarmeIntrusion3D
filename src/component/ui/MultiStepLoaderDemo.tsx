@@ -29,8 +29,12 @@ const loadingStates = [
         text: "Bienvenue ",
     },
 ];
+interface MultiStepLoaderDemoProps {
+    loading: boolean;
+    setLoading: (loading: boolean) => void;
+}
 
-export function MultiStepLoaderDemo({loading,setLoading}) {
+export function MultiStepLoaderDemo({loading,setLoading}: MultiStepLoaderDemoProps) {
 
     return (
         <div className="w-full h-[60vh] flex items-center justify-center">
