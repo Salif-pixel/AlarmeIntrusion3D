@@ -3,6 +3,7 @@ import {HeroScrollDemo} from "./HeroScrollDemo.tsx";
 import {InfiniteMovingCardsDemo} from "./InfiniteMovingCardsDemo.tsx";
 import SimulationCapteurInfrarouge from "./SimulationCapteurInfrarouge.tsx";
 import SecondPage from "./Secondpage.tsx";
+import ThirdPage from "./Thirdpage.tsx";
 
 
 
@@ -16,7 +17,9 @@ export default function FirstPage() {
                 <HeroScrollDemo/>
                 <InfiniteMovingCardsDemo/>
                 <SimulationCapteurInfrarouge/>
-                    <SecondPage />
+                <ThirdPage/>
+                <SecondPage />
+
             </div>
 
         )

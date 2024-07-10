@@ -25,7 +25,7 @@ function Intro() {
                 </motion.h1>
                 <motion.div initial={{width: 10}} whileInView={{width: 100}} transition={{
                     type: "spring",
-                    stiffness: 100,
+                     stiffness: 100,
                     damping: 25,
                 }} className={`h-2 ml-10 bg-white z-50  rounded-lg mt-2`}></motion.div>
                 <div className="mt-4 font-normal text-base z-50   text-neutral-300 max-w-lg ml-10">
