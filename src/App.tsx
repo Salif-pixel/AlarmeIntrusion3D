@@ -1,22 +1,31 @@
 
 import './App.css'
-import FirstPage from "./component/ui/FirstPage.tsx";
-import {useState} from "react";
-import {MultiStepLoaderDemo} from "./component/ui/MultiStepLoaderDemo.tsx";
+
+
+import Landing from "./Landing/Ui/main.tsx";
+import {FloatingNavDemo} from "./component/Demo/FloatingNavDemo.tsx";
+import {GlobeDemo} from "./component/Demo/GlobeDemo.tsx";
+import {BackgroundBeamsDemo} from "./component/Demo/BackgroundBeamsDemo.tsx";
+
 
 
 
 function App() {
-const [loading, setLoading] = useState(true);
+
 
 
   return (
 
-    <div className={`bg-black h-screen w-screen`}>
-        <FirstPage />
-        {loading&&<MultiStepLoaderDemo loading={loading} setLoading={setLoading} />}
+    <div className={`bg-white w-screen overflow-x-hidden`}>
+        <FloatingNavDemo/>
+        <Landing/>
+        <GlobeDemo/>
+        <BackgroundBeamsDemo/>
+
+
 
     </div>
+
   )
 }
 

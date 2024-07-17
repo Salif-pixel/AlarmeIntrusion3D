@@ -1,6 +1,6 @@
 "use client";
 import capteur from "../../assets/capteur.png"
-import { ContainerScroll } from "../ui/container-scroll-animation";
+import { ContainerScroll } from "../ui/container-scroll-animation.tsx";
 
 
 export function HeroScrollDemo() {

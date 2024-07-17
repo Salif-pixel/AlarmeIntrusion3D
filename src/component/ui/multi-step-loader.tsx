@@ -62,22 +62,22 @@ const LoaderCore = ({
                     >
                         <div>
                             {index > value && (
-                                <CheckIcon className="text-white" />
+                                <CheckIcon className="text-black" />
                             )}
                             {index <= value && (
                                 <CheckFilled
                                     className={cn(
-                                        "ttext-white",
+                                        "ttext-black",
                                         value === index &&
-                                        "text-black text-lime-500 opacity-100"
+                                        " text-blue-700 opacity-100"
                                     )}
                                 />
                             )}
                         </div>
                         <span
                             className={cn(
-                                "text-white",
-                                value === index && "text-lime-500 opacity-100"
+                                "text-black",
+                                value === index && "text-blue-700 opacity-100"
                             )}
                         >
               {loadingState.text}
@@ -93,7 +93,7 @@ export const MultiStepLoader = ({
                                     loadingStates,
                                     loading,
                                     setLoading,
-                                    duration = 6000,
+                                    duration = 100,
                                     loop = false,
                                 }: {
     loadingStates: LoadingState[];
@@ -138,13 +138,13 @@ export const MultiStepLoader = ({
                     exit={{
                         opacity: 0,
                     }}
-                    className="w-full h-full fixed inset-0 z-[100] flex items-center justify-center bg-black"
+                    className="w-full h-full fixed inset-0 z-[100] flex items-center justify-center bg-white"
                 >
                     <div className="h-96  relative">
                         <LoaderCore value={currentState} loadingStates={loadingStates} />
                     </div>
 
-                    <div className="bg-gradient-to-t inset-x-0 z-20 bottom-0  bg-black h-full absolute [mask-image:radial-gradient(900px_at_center,transparent_30%,white)]" />
+                    <div className="bg-gradient-to-t inset-x-0 z-20 bottom-0  bg-white h-full absolute [mask-image:radial-gradient(900px_at_center,transparent_30%,white)]" />
                 </motion.div>
             )}
         </AnimatePresence>

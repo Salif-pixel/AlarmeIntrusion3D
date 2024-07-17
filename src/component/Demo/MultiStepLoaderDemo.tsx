@@ -1,6 +1,6 @@
 "use client";
 
-import { MultiStepLoader as Loader } from "../ui/multi-step-loader";
+import { MultiStepLoader as Loader } from "../ui/multi-step-loader.tsx";
 
 
 const loadingStates = [
@@ -39,7 +39,7 @@ export function MultiStepLoaderDemo({loading,setLoading}: MultiStepLoaderDemoPro
     return (
         <div className="w-full h-[60vh] flex items-center justify-center">
             {/* Core Loader Modal */}
-            <Loader loadingStates={loadingStates} setLoading={setLoading} loading={loading} duration={6000} />
+            <Loader loadingStates={loadingStates}  loading={loading} setLoading={setLoading} duration={1000} />
 
             {/* The buttons are for demo only, remove it in your actual code ⬇️ */}
 
